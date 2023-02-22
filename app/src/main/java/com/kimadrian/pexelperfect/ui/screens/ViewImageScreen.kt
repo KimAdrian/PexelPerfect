@@ -1,0 +1,11 @@
+package com.kimadrian.pexelperfect.ui.screens
+
+import androidx.compose.material.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.sp
+
+@Composable
+fun ViewImageScreen(modifier: Modifier = Modifier){
+    Text(text = "ViewImageScreen", fontSize = 15.sp)
+}
